@@ -1,0 +1,7 @@
+#20230621 Lanjut belajar python.
+#percabangan adalah if.. then..
+
+#lulus.py
+lulus = input("Apakah kamu lulus? [ya/tidak]: ")
+if lulus == "tidak":
+    print("kamu harus ikut ujian remidi")
