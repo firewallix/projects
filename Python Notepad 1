@@ -1,0 +1,9 @@
+#20230621
+#Tutorial yang diberikan petanikode.com menggunakan Python versi sebelumnya sehingga beberapa syntax mengalami error pada saat dijalankan.
+#Misalnya 
+nama = raw_input("Masukkan nama: ")
+#statement itu akan menimbulkan error NameError: name 'raw_input' is not defined
+#pada Python yang gw pake versinya 3.11.xx memakai syntax input saja
+nama = input("Masukkan nama: ")
+
+Catatan 1 selesai
