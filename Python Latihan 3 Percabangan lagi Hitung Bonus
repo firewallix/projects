@@ -10,3 +10,6 @@ if total_belanja > 10000:
     #hitung discountnya
     diskon = total_belanja * 5/100 #5%
     bayar = total_belanja - diskon
+#cetak struk
+print("Total yang harus dibayar Rp. {}".format(bayar))
+print("Terima kasih sudah berbelanja")
