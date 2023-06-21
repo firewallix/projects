@@ -1,0 +1,12 @@
+#bonus.py
+#program untuk cek bonus
+total_belanja = int(input("Total belanja Rp. "))
+
+#kalkulasi diskon untuk mengurangi total belanja
+if total_belanja > 10000:
+    print("Kamu  mendapatkan bonus softdrink")
+    print("dan diskon 5%")
+
+    #hitung discountnya
+    diskon = total_belanja * 5/100 #5%
+    bayar = total_belanja - diskon
